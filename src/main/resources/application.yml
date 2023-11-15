@@ -1,0 +1,9 @@
+# Server Settings
+server:
+  port: 9090
+  servlet:
+    context-path: /api
+
+# Debug mode true for logging
+logging.level.org.springframework.web: DEBUG
+spring.http.log-request-details: true
